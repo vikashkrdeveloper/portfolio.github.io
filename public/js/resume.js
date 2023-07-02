@@ -19,35 +19,35 @@ let skills = document.getElementById('skills');
 let projects = document.getElementById('project');
 let education = document.getElementById('education');
 let contact = document.getElementById('contact');
+const assignurl=()=>{
+    let url="https://vikashkrdeveloper.github.io/portfolio.github.io/";
+    window.location.assign(url);
+
+
+}
 function homefun() {
-    let homeurl="../../index.html";
-    window.location.assign(homeurl);
+    assignurl();
     window.scroll(0, 0);
 }
 function aboutfun() {
-    let abouturl="../../index.html";
-    window.location.assign(abouturl);
+    assignurl();
     window.scroll(0, 650);
 }
 function skillsfun() {
-    let skillsurl="../../index.html";
-    window.location.assign(skillsurl);
+    assignurl();
     window.scroll(0, 1390);
 }
 function projectsfun() {
-    let projectsurl="../../index.html";
-    window.location.assign(projectsurl);
+    assignurl();
     window.scroll(0, 2780);
 }
 
 function educationfun() {
-    let educationurl="../../index.html";
-    window.location.assign(educationurl);
+    assignurl();
     window.scroll(0, 2140);
 }
 function contactfun() {
-    let contacturl="../../index.html";
-    window.location.assign(contacturl);
+    assignurl();
     window.scroll(0, 3470);
 }
 home.addEventListener('click', () => {
