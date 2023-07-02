@@ -20,7 +20,7 @@ let projects = document.getElementById('project');
 let education = document.getElementById('education');
 let contact = document.getElementById('contact');
 const assignurl=()=>{
-    let url="https://vikashkrdeveloper.github.io/portfolio.github.io/";
+    let url="vikashkrdeveloper.github.io/portfolio.github.io/";
     window.location.assign(url);
 
 
