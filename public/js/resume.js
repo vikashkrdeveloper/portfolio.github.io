@@ -6,7 +6,7 @@ year.innerHTML = date.getFullYear();
 //header properties
 let logoImage=document.getElementById('logo-img');
 let logoText=document.getElementById('logo-text');
-let logourl="../../index.html";
+let logourl="/";
 logoImage.addEventListener('click',()=>{
     window.location.assign(logourl);
 })
@@ -20,7 +20,7 @@ let projects = document.getElementById('project');
 let education = document.getElementById('education');
 let contact = document.getElementById('contact');
 const assignurl=()=>{
-    let url="../../index.html";
+    let url="/";
     window.location.assign(url);
 
 
