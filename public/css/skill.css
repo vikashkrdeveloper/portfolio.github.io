@@ -1,0 +1,130 @@
+.skills-container {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+}
+.skill-main-details-container {
+  width: 100%;
+  height: 100%;
+  background: #dc00ff;
+  background: linear-gradient(267deg, #dc00ff 0%, #002eff 80%);
+  background: -webkit-linear-gradient(267deg, #dc00ff 0%, #002eff 80%);
+  background: -moz-linear-gradient(267deg, #dc00ff 0%, #002eff 80%);
+}
+.skill-main-show-container {
+  width: auto;
+  height: auto;
+
+  background-color: rgb(53, 114, 163);
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.skill-main-all-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.skill-main-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+}
+.skill-main-heading {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.skill-main-heading-icon {
+  font-size: 30px;
+  color: white;
+}
+.skill-main-heading-abilities {
+  color: rgb(255, 204, 0);
+}
+.programing-list-container {
+  background-color: black;
+  width: 150px;
+  height: 120px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.last-programming {
+  margin-right: 0px;
+}
+.programing-all-list-container {
+  margin: 30px;
+  width: 95%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.programing-list-image-container {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px 10px 0 0;
+  background-color: rgb(240, 240, 239);
+}
+.programing-list-name-container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 10px 10px;
+}
+.programing-list-name {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+.programing-list-image {
+  width: 45px;
+  height: 40px;
+}
+.expreesjs {
+  font-size: 40px;
+  color: green;
+}
+.html {
+  font-size: 40px;
+  color: rgb(210, 58, 8);
+}
+.css {
+  font-size: 40px;
+  color: #002eff;
+}
+.js {
+  font-size: 40px;
+  color: rgb(255, 213, 0);
+}
+.php {
+  font-size: 40px;
+  color: #3c00ff;
+}
+.bootstap {
+  font-size: 40px;
+  color: #dc00ff;
+}
+.mongod {
+  width: 80px;
+}
+.java {
+  width: 60px;
+  height: 70px;
+}
+.python {
+  width: 60px;
+  height: 60px;
+}
+.clanguage {
+  font-size: 40px;
+  color: rgb(48, 96, 255);
+}

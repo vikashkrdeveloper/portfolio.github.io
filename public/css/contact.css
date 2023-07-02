@@ -1,0 +1,145 @@
+.contact-main-container {
+  background-color: rgb(219, 219, 219);
+  width: 100%;
+  height: auto;
+}
+.contact-main-details-container {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-main-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+}
+.contact-headset {
+  font-size: 30px;
+  margin-right: 5px;
+}
+.contact-headset-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-headset-text-span {
+  color: blueviolet;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.contacts-main-container {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(219, 219, 219);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts-main-container-box {
+  width: 70%;
+  background-color: rgb(255, 255, 255);
+  height: 70%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts-main-container-box-left {
+  height: 100%;
+  width: 50%;
+  background-color: rgb(210, 210, 210);
+  border-radius: 20px 0 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts-main-container-box-right {
+  height: 100%;
+  width: 50%;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts-main-container-box-search {
+  width: 80%;
+  height: 90%;
+}
+.input-container{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(219, 219, 219);
+    border:1px solid rgb(148, 148, 148);
+
+}
+.user-icon{
+    height: 100%;
+    width:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#name,#email,#phone{
+    padding: 10px;
+    width:85%;
+    height:20px;
+    outline: none;
+    background: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.message-input-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+    margin-top: 10px;
+border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(219, 219, 219);
+    border:1px solid rgb(148, 148, 148);
+
+}
+.user-message-icon{
+width:40px;
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+#textarea-box{
+    background: none;
+margin-top: 20px;
+    border: none;
+     outline: none;
+     font-size: 15px;
+     font-weight: 500;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.input-container-button{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#submit{
+padding: 10px;
+ border: none;
+ background-color: blue;
+ color: white;
+ border-radius: 10px;
+ cursor: pointer;
+ width: 110px;
+ font-size: 15px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+ 
