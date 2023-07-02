@@ -146,7 +146,7 @@ footerContact.addEventListener('click', () => {
 //about page properties
 let resume = document.getElementById('resume');
 resume.addEventListener('click', () => {
-    let resumeurl = "../../src/resume.html";
+    let resumeurl = "/portfolio.github.io/src/resume.html";
     window.location.assign(resumeurl);
 
 })
